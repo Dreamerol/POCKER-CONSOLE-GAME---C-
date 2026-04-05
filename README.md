@@ -1,3 +1,114 @@
+# ♠️ Poker Project
+
+This project is a console-based implementation of a simplified **Poker game**, developed as part of a programming assignment. It simulates the essential components of poker, including cards, players, and hand evaluation.
+
+---
+
+## 🚀 Purpose
+
+The main goal of this project is to practice core programming concepts by building a real-world application. The project focuses on:
+
+- Implementing game logic  
+- Working with structured data (cards, deck, players)  
+- Simulating interactions between different components  
+- Understanding how complex systems can be broken into smaller parts  
+
+---
+
+## 🃏 Game Overview
+
+This project represents a simplified version of Poker. The typical flow of the game is:
+
+1. A standard deck of 52 cards is created  
+2. The deck is shuffled randomly  
+3. Each player is dealt a set of cards  
+4. The program evaluates each player's hand  
+5. A winner is determined based on hand rankings  
+
+Depending on your implementation, the game may support multiple players and repeated rounds.
+
+---
+
+## 🧠 Core Components
+
+### 🂡 Card
+
+Represents a single playing card.
+
+Each card has:
+- A **rank** (2–10, Jack, Queen, King, Ace)  
+- A **suit** (Hearts, Diamonds, Clubs, Spades)  
+
+This is the basic building block of the entire game.
+
+---
+
+### 🃴 Deck
+
+Represents a full deck of 52 cards.
+
+Responsibilities:
+- Generate all cards  
+- Shuffle the deck randomly  
+- Provide cards when dealing  
+
+---
+
+### 👤 Player
+
+Represents a participant in the game.
+
+Each player:
+- Holds a hand of cards  
+- Can be evaluated based on their hand  
+- Competes against other players  
+
+---
+
+### 🎮 Game Logic
+
+Controls the flow of the program.
+
+Responsibilities:
+- Initialize the deck and players  
+- Deal cards  
+- Manage turns (if implemented)  
+- Evaluate hands  
+- Determine the winner  
+
+---
+
+## 🏆 Hand Evaluation
+
+A key part of the project is determining the strength of a player's hand.
+
+Typical poker combinations include:
+
+- High Card  
+- Pair  
+- Two Pairs  
+- Three of a Kind  
+- Straight  
+- Flush  
+- Full House  
+- Four of a Kind  
+- Straight Flush  
+
+The program compares players' hands and decides the winner based on these rankings.
+
+---
+
+## 🛠️ Features
+
+- ✔ Full deck simulation (52 cards)  
+- ✔ Random card shuffling  
+- ✔ Multiple players support (if implemented)  
+- ✔ Hand ranking system  
+- ✔ Winner determination  
+- ✔ Console-based interaction  
+
+---
+
 PROJECT POCKER 10
 I use Visual Studio
 
